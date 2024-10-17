@@ -23,7 +23,7 @@ public class ElderController {
         return ResponseEntity.ok(createdElder);
     }
 
-
+    @CrossOrigin(origins = "http://localhost:3000")
     @GetMapping
     public ResponseEntity<List<Elder>> getAllElders() {
         List<Elder> elders = elderService.getAllElders();
@@ -31,7 +31,7 @@ public class ElderController {
     }
 
 
-
+    @CrossOrigin(origins = "http://localhost:3000")
     @GetMapping("/{id}")
     public ResponseEntity<Elder> getElderById(@PathVariable Long id) {
         Optional<Elder> elder = elderService.getElderById(id);
