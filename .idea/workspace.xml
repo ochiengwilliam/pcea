@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a78eb242-f6a4-4eb0-be2f-c5e2b841b0d0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/pcea/controller/ElderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/pcea/controller/ElderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/pcea/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/pcea/controller/RegistrationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/pcea/service/RegistrationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/pcea/service/RegistrationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/pcea/controller/ElderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/pcea/controller/ElderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/pcea/controller/RegistrationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/pcea/controller/RegistrationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/pcea/service/RegistrationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/pcea/service/RegistrationService.class" afterDir="false" />
-    </list>
+    <list default="true" id="a78eb242-f6a4-4eb0-be2f-c5e2b841b0d0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
