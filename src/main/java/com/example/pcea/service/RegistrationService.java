@@ -59,9 +59,6 @@ public class RegistrationService {
             if (updatedRegistration.getMaritalStatus() != null) {
                 existingRegistration.setMaritalStatus(updatedRegistration.getMaritalStatus());
             }
-            if (updatedRegistration.getSpouseName() != null) {
-                existingRegistration.setSpouseName(updatedRegistration.getSpouseName());
-            }
 
             return Optional.of(registrationRepository.save(existingRegistration));
         }

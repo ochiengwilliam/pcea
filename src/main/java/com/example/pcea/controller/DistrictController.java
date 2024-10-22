@@ -66,6 +66,17 @@ public class DistrictController {
         }
     }
 
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Void> deleteDistrictById(@PathVariable Long id) {
+        Optional<District> district = districtRepository.findById(id);
+        if (district.isPresent()) {
+            districtRepository.deleteById(id);
+            return ResponseEntity.noContent().build();
+        } else {
+            return ResponseEntity.notFound().build();
+        }
+    }
+
 
 
 }
