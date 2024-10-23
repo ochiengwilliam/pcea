@@ -15,14 +15,11 @@ import java.time.LocalDate;
 public class ChildInformation {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    @Column(name = "child_contact", nullable = false, unique = true)
+    private String childContact; // Primary key
 
     @Column(name = "child_name")
     private String childName;
-
-    @Column(name = "child_contact")
-    private String childContact;
 
     @Column(name = "year_of_birth")
     private LocalDate yearOfBirth; // Changed from int to LocalDate

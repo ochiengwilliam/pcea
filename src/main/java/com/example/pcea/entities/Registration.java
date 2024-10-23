@@ -6,6 +6,7 @@ import lombok.Setter;
 import org.antlr.v4.runtime.misc.NotNull;
 
 import java.time.LocalDate;
+import java.util.List;
 
 @Setter
 @Getter
@@ -13,10 +14,10 @@ import java.time.LocalDate;
 @Table(name = "registration")
 public class Registration {
 
-    // Getters and Setters
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    @Column(name = "mobile", nullable = false, unique = true) // Primary key
+    @NotNull
+    private String mobile;
 
     @Column(name = "first_name", nullable = false)
     private String firstName;
@@ -46,15 +47,9 @@ public class Registration {
     @Column(name = "national_id", nullable = false, unique = true)
     private String nationalId;
 
-    @NotNull
-    @Column(name = "mobile", nullable = false)
-    private String mobile;
-
-    // New gender field
     @Column(name = "gender", nullable = false)
     private String gender;
 
-    // New baptized field
     @Column(name = "baptized", nullable = false)
     private String baptized;
 
